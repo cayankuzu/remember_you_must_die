@@ -1,0 +1,14 @@
+{
+  "name": "remember-you-must-die-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static Three.js experience — local dev via serve, deployable to GitHub Pages",
+  "scripts": {
+    "dev": "serve . -l 3333 --no-port-switching",
+    "dev:3000": "serve . -l 3000 --no-port-switching",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
